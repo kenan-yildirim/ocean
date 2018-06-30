@@ -1,0 +1,77 @@
+html {
+  background-color: lightblue;
+}
+
+h1 {
+  text-align:center;
+}
+
+.navMenu {
+  text-align: center;
+  margin: 1em;
+}
+
+a {
+  background-color: black;
+  color: white;
+  padding: 1em;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 red;
+}
+
+a:hover {
+  background-color: blue;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 1em;
+  margin-bottom: 10px;
+
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+
+}
+
+figure {
+  display: block;
+  width: 100%;
+  height: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 1em;
+}
+
+figure:hover {
+  background-color: pink;
+}
+
+figcaption {
+  text-align: center;
+  margin: 1em;
+}
+
+p {
+  text-align: justify;
+  text-indent: 1em;
+  background-color: white;
+  border-radius: 1em;
+  padding: 20px;
+}
+
+footer {
+  display: block;
+  background-color: green;
+  padding: 20px;
+  border-radius: 1em;
+}
+
+.adress, .phoneNumber, .copyright {
+  align-items: center;
+  padding: 10px;
+}
